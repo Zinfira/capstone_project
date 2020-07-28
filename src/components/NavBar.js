@@ -7,7 +7,7 @@ import { ButtonContainer } from './Button';
 class NavBar extends Component {
   render() {
     return (
-      <NavBarWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5 height=80">
+      <NavBarWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">
         <Link to='/'>
         <img src={logoctb} alt="store" className="navbar-brand" width="95" height="80
       "/>
@@ -43,7 +43,12 @@ class NavBar extends Component {
 }
 
 const NavBarWrapper = styled.nav`
-
+  background: var(--color2);
+  .nav-link{
+    color:var(--mainBase) !important;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+  }
 `
 
 export default NavBar;

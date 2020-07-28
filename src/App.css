@@ -1,7 +1,7 @@
 :root {
   --mainBase: #f4f2f1;
   --grey1: #d8d8d8;
-  --grey2: #606060;
+  --color2: #6b5876;
   --yellow: #f8ce97;
   --mainDark: #444444;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 .text-grey {
-  color: var(--grey2);
+  color: var(--color2);
 }
 
 .text-bright {

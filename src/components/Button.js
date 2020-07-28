@@ -13,7 +13,7 @@ export const ButtonContainer = styled.button`
   transition: all 0.5s ease-in-out;
   &:hover{
     background: var(--grey1);
-    color: var(--grey2);
+    color: var(--color2);
   }
   &:focus {
     outline: none;
