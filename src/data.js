@@ -2,7 +2,8 @@ export const storeProducts = [
   {
     id: 1,
     title: "Rome Planter",
-    img: " ",
+    img: "img/product-1.png",
+    price: 4,
     size: "Diameter 2 inches",
     color: "brown",
     material: "",
@@ -15,7 +16,8 @@ export const storeProducts = [
   {
     id: 2,
     title: "Rome Planter",
-    img: " ",
+    img: "img/product-2.png",
+    price: 6,
     size: "Diameter 3 inches",
     color: "brown",
     material: "",
@@ -28,7 +30,8 @@ export const storeProducts = [
   {
     id: 3,
     title: "Rome Planter",
-    img: " ",
+    img: "img/product-3.png",
+    price: 8,
     size: "Diameter 4 inches",
     color: "brown",
     material: "",
@@ -40,7 +43,8 @@ export const storeProducts = [
   {
     id: 4,
     title: "Rome Planter",
-    img: "",
+    img: "img/product-4.png",
+    price: 12,
     size: "Diameter 7 inches",
     color: "brown",
     material: "",
@@ -53,7 +57,8 @@ export const storeProducts = [
   {
     id: 5,
     title: "Planter",
-    img: "",
+    img: "img/product-5.png",
+    price: 5,
     size: "Diameter 3 inches",
     color: "black",
     material: "",
@@ -66,7 +71,8 @@ export const storeProducts = [
   {
     id: 6,
     title: "Table Clock",
-    img: "",
+    img: "img/product-6.png",
+    price: 40,
     size: "",
     color: "brown",
     material: "wood",
@@ -79,7 +85,8 @@ export const storeProducts = [
   {
     id: 7,
     title: "Paper Organizer",
-    img: "",
+    img: "img/product-7.png",
+    price: 120,
     size: "",
     color: "light brown",
     material: "Reclaimed 100 yr old Douglas Fir",
@@ -92,7 +99,8 @@ export const storeProducts = [
   {
     id: 8,
     title: "Winter Scarf",
-    img: "",
+    img: "img/product-8.png",
+    price: 80,
     size: "",
     color: "dark blue",
     material: "",
@@ -105,7 +113,8 @@ export const storeProducts = [
   {
     id: 9,
     title: "Blanket",
-    img: "",
+    img: "img/product-9.png",
+    price: 150,
     size: "",
     color: "grey-pink",
     material: "",
@@ -121,6 +130,7 @@ export const detailProduct = {
   id: 1,
   title: "Rome Planter",
   img: "",
+  price: 4,
   size: "Diameter 2 inches",
   color: "brown",
   material: "",
