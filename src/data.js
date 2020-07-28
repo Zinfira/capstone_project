@@ -1,0 +1,130 @@
+export const storeProducts = [
+  {
+    id: 1,
+    title: "Rome Planter",
+    img: " ",
+    size: "Diameter 2 inches",
+    color: "brown",
+    info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
+    author: "made by Nik",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 2,
+    title: "Rome Planter",
+    img: " ",
+    size: "Diameter 3 inches",
+    color: "brown",
+    material: "",
+    info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
+    author: "made by Nik",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 3,
+    title: "Rome Planter",
+    img: " ",
+    size: "Diameter 4 inches",
+    color: "brown",
+    material: "",
+    info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 4,
+    title: "Rome Planter",
+    img: "",
+    size: "Diameter 7 inches",
+    color: "brown",
+    material: "",
+    info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
+    author: "made by Nik",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 5,
+    title: "Planter",
+    img: "",
+    size: "Diameter 3 inches",
+    color: "black",
+    material: "",
+    info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
+    author: "made by Nik",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 6,
+    title: "Table Clock",
+    img: "",
+    size: "",
+    color: "brown",
+    material: "wood",
+    info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
+    author: "made by Nik",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 7,
+    title: "Paper Organizer",
+    img: "",
+    size: "",
+    color: "light brown",
+    material: "Reclaimed 100 yr old Douglas Fir",
+    info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
+    author: "made by Nik",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 8,
+    title: "Winter Scarf",
+    img: "",
+    size: "",
+    color: "dark blue",
+    material: "",
+    info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
+    author: "made by Zinfira",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 9,
+    title: "Blanket",
+    img: "",
+    size: "",
+    color: "grey-pink",
+    material: "",
+    info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
+    author: "made by Zinfira",
+    inCart: false,
+    count: 0,
+    total: 0
+  }
+];
+
+export const detailProduct = {
+  id: 1,
+  title: "Rome Planter",
+  img: "",
+  size: "Diameter 2 inches",
+  color: "brown",
+  info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
+  author: "made by Nik",
+  inCart: false,
+  count: 0,
+  total: 0
+};
