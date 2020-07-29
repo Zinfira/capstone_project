@@ -1,35 +1,35 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Rome Planter",
+    title: "Rome Planter mini",
     img: "img/product-1.png",
     price: 4,
     size: "Diameter 2 inches",
     color: "brown",
     material: "",
     info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
-    author: "made by Nik",
+    author: "Nik",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 2,
-    title: "Rome Planter",
+    title: "Rome Planter small",
     img: "img/product-2.png",
     price: 6,
     size: "Diameter 3 inches",
     color: "brown",
     material: "",
     info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
-    author: "made by Nik",
+    author: "Nik",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 3,
-    title: "Rome Planter",
+    title: "Rome Planter medium",
     img: "img/product-3.png",
     price: 8,
     size: "Diameter 4 inches",
@@ -42,14 +42,14 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "Rome Planter",
+    title: "Rome Planter large",
     img: "img/product-4.png",
     price: 12,
     size: "Diameter 7 inches",
     color: "brown",
     material: "",
     info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
-    author: "made by Nik",
+    author: "Nik",
     inCart: false,
     count: 0,
     total: 0
@@ -63,7 +63,7 @@ export const storeProducts = [
     color: "black",
     material: "",
     info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
-    author: "made by Nik",
+    author: "Nik",
     inCart: false,
     count: 0,
     total: 0
@@ -77,7 +77,7 @@ export const storeProducts = [
     color: "brown",
     material: "wood",
     info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
-    author: "made by Nik",
+    author: "Nik",
     inCart: false,
     count: 0,
     total: 0
@@ -91,7 +91,7 @@ export const storeProducts = [
     color: "light brown",
     material: "Reclaimed 100 yr old Douglas Fir",
     info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
-    author: "made by Nik",
+    author: "Nik",
     inCart: false,
     count: 0,
     total: 0
@@ -105,7 +105,7 @@ export const storeProducts = [
     color: "dark blue",
     material: "",
     info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
-    author: "made by Zinfira",
+    author: "Zinfira",
     inCart: false,
     count: 0,
     total: 0
@@ -119,7 +119,7 @@ export const storeProducts = [
     color: "grey-pink",
     material: "",
     info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
-    author: "made by Zinfira",
+    author: "Zinfira",
     inCart: false,
     count: 0,
     total: 0
@@ -129,13 +129,13 @@ export const storeProducts = [
 export const detailProduct = {
   id: 1,
   title: "Rome Planter",
-  img: "",
+  img: "img/product-9.png",
   price: 4,
   size: "Diameter 2 inches",
   color: "brown",
   material: "",
   info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
-  author: "made by Nik",
+  author: "Nik",
   inCart: false,
   count: 0,
   total: 0
