@@ -89,7 +89,7 @@ export const storeProducts = [
     price: 120,
     size: "",
     color: "light brown",
-    material: "Reclaimed 100 yr old Douglas Fir",
+    material: "Reclaimed 100 yr old Douglas Fir, Oak dowels, acrylic tray, danish oil with walnut finish",
     info: "Lorem ipsum dolor sit amet, mei iudico equidem an, duis decore persius sea ne. Duo nominati reformidans at. Ei mel soleat cetero, ei libris vivendo duo, cum laboramus intellegat ex. Id vim legimus consequat.",
     author: "Nik",
     inCart: false,

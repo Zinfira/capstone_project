@@ -34,7 +34,7 @@ class Details extends Component {
                   </strong>
                 </h4>
                 <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                  Size : {size}
+                  Dimensions : {size}
                 </p>
                 <p className="text-capitalize font-weight-bold mt-3 mb-0">
                   Material : {material}
