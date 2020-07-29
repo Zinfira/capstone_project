@@ -52,10 +52,12 @@ class Details extends Component {
                   made by : <span className="text-uppercase">{author}</span>
                 </h4>
                 <div>
+                  {/* buttons */}
                   <Link to="/products">
                     <ButtonContainer>back to products</ButtonContainer>
                   </Link>
                   <ButtonContainer
+                    cart
                     disabled={inCart ? true : false }
                     onClick={() => {
                       value.addToCart(id)
