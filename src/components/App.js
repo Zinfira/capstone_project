@@ -8,7 +8,7 @@ import AboutUs from './AboutUs';
 import Contacts from './Contacts';
 import ProductList from './ProductList';
 import Details from './Details';
-import Cart from './Cart';
+import Cart from './Cart/Cart';
 import NotFoundPage from './NotFoundPage';
 import Footer from './Footer';
 import Modal from './Modal';
