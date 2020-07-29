@@ -1,5 +1,4 @@
 import React from 'react';
-import logoctb from '../logoctb.png';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Switch, Route } from 'react-router-dom';

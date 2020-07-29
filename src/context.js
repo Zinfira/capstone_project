@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { storeProducts, detailProduct } from './data';
+import React, { Component } from "react";
+import { storeProducts, detailProduct } from "./data";
 
 const ProductContext = React.createContext();
 //Provider
@@ -9,38 +9,38 @@ class ProductProvider extends Component {
   state = {
     products: [],
     detailProduct: detailProduct,
-    cart: storeProducts,
+    cart: [],
     modalOpen: false,
     modalProduct: detailProduct,
     cartSubtotal: 0,
     cartTax: 0,
-    cartTotal: 0
+    cartTotal: 0,
   };
 
   componentDidMount() {
     this.setProducts();
-  }
+  };
 
   setProducts = () => {
     let products = [];
-    storeProducts.forEach(item => {
-      const singleItem = {...item};
+    storeProducts.forEach((item) => {
+      const singleItem = { ...item };
       products = [...products, singleItem];
     });
-    this.setState(()=> {
-      return {products}
+    this.setState(() => {
+      return { products };
     });
-  }
+  };
 
   getItem = (id) => {
-    const product = this.state.products.find(item => item.id === id);
+    const product = this.state.products.find((item) => item.id === id);
     return product;
-  }
-  
+  };
+
   handleDetail = (id) => {
     const product = this.getItem(id);
     this.setState(() => {
-      return {detailProduct: product}
+      return { detailProduct: product };
     });
   };
 
@@ -52,8 +52,9 @@ class ProductProvider extends Component {
     product.count = 1;
     const price = product.price;
     product.total = price;
-    this.setState(() => {
-      return { products: tempProducts, cart: [...this.state.cart, product] };
+    this.setState(
+      () => {
+        return { products: tempProducts, cart: [...this.state.cart, product] };
       },
       () => {
         console.log(this.state);
@@ -61,39 +62,39 @@ class ProductProvider extends Component {
     );
   };
 
-  openModal = id => {
+  openModal = (id) => {
     const product = this.getItem(id);
     this.setState(() => {
-      return { modalProduct: product, modalOpen: true }
+      return { modalProduct: product, modalOpen: true };
     });
-  }
+  };
 
   closeModal = () => {
     this.setState(() => {
-      return { modalOpen: false }
+      return { modalOpen: false };
     });
-  }
+  };
 
   increment = (id) => {
-    console.log('this is increment method');
-  }
+    console.log("this is increment method");
+  };
 
   decrement = (id) => {
-    console.log('this is decrement method');
-  }
+    console.log("this is decrement method");
+  };
 
   removeItem = (id) => {
-    console.log('item removed');
-  }
+    console.log("item removed");
+  };
 
   clearCart = () => {
-    console.log('cart was cleared');
-  }
+    console.log("cart was cleared");
+  };
 
   render() {
     return (
-      <ProductContext.Provider 
-        value = {{
+      <ProductContext.Provider
+        value={{
           ...this.state,
           handleDetail: this.handleDetail,
           addToCart: this.addToCart,
@@ -102,7 +103,7 @@ class ProductProvider extends Component {
           increment: this.increment,
           decrement: this.decrement,
           removeItem: this.removeItem,
-          clearCart: this.clearCart
+          clearCart: this.clearCart,
         }}
       >
         {this.props.children}
@@ -113,4 +114,4 @@ class ProductProvider extends Component {
 
 const ProductConsumer = ProductContext.Consumer;
 
-export { ProductProvider, ProductConsumer }; 
+export { ProductProvider, ProductConsumer };
