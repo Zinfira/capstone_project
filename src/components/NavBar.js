@@ -49,6 +49,9 @@ const NavBarWrapper = styled.nav`
     font-size: 1.3rem;
     text-transform: capitalize;
   }
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export default NavBar;

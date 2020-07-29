@@ -13,8 +13,8 @@ export const ButtonContainer = styled.button`
   margin: 0.2rem 0.5rem 0.2rem 0;
   transition: all 0.5s ease-in-out;
   &:hover{
-    background: ${prop => prop.cart ? "var(--color3)" : "var(--color2)"};
-    color: ${prop => prop.cart ? "var(--color2)" : "var(--mainDark)"};
+    background: ${prop => prop.cart ? "var(--color3)" : "var(--mainDark)"};
+    color: ${prop => prop.cart ? "var(--color2)" : "var(--color2)"};
   }
   &:focus {
     outline: none;
