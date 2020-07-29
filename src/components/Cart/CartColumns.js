@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function CartColumns() {
   return (
@@ -27,4 +27,4 @@ function CartColumns() {
   );
 }
 
-export default CartColumns; 
+export default CartColumns;
