@@ -72,3 +72,10 @@ body {
 .content-wrap {
   flex: 1;
 }
+
+.carousel {
+  width: 26vw;
+  height: 60vh;
+  width: 100%;
+
+}
