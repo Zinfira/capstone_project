@@ -32,7 +32,7 @@ export default class Gallery extends React.Component {
     duration={500}
     autoPlay={true}
     startIndex={1}
-    fadeInAnimation={true}
+    fadeOutAnimation={true}
     mouseDragEnabled={true}
     responsive={responsive}
     autoPlayInterval={2000}
@@ -41,12 +41,11 @@ export default class Gallery extends React.Component {
     onSlideChange={this.onSlideChange}
     onSlideChanged={this.onSlideChanged}
   >
-    <img src="img/product-0.jpg" className="carousel" alt="product" />
-    <img src="img/product-03.jpg" className="carousel" alt="product" />
-    {/* <img src="" className="yours-custom-class" alt="product" />
-        <img src="" className="yours-custom-class" alt="product"><h2>3</h2></img>
-        <img src="" className="yours-custom-class" alt="product"><h2>4</h2></img>
-      <img src="" className="yours-custom-class" alt="product"><h2>5</h2></img> */}
+    <img src="img/carousel-1.jpg" className="carousel" alt="cubes" />
+    <img src="img/carousel-2.jpg" className="carousel" alt="clock" />
+    <img src="img/carousel-3.jpg" className="carousel" alt="pens holder" />
+    <img src="img/carousel-4.jpg" className="carousel" alt="planter" />
+    <img src="img/carousel-5.jpg" className="carousel" alt="planters" />
   </AliceCarousel>
     );
   }
