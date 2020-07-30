@@ -51,3 +51,24 @@ body {
 #text-info {
   text-transform: none;
 }
+
+.main-footer {
+  background: var(--color2) !important;
+  color: var(--mainDark) !important;
+  /* padding-top: 0.5em; */
+  position: relative;
+  bottom: 0;
+  /* height: 3.5em; */
+  width: 100%;
+  padding-top: 1em;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
+}

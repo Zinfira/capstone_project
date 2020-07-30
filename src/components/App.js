@@ -15,19 +15,22 @@ import Modal from './Modal';
 class App extends React.Component {
   render() {
     return (
-      <React.Fragment>
-        <NavBar />
-        <Switch>
-          <Route exact path="/" component={AboutUs} /> 
-          <Route path="/products" component={ProductList} />
-          <Route path="/contacts" component={Contacts} />
-          <Route path="/details" component={Details} />
-          <Route path="/cart" component={Cart} />
-          <Route component={NotFoundPage} />
-        </Switch>
-        <Modal />
+      <div className="page-container">
+        <div className="content-wrap">
+          <NavBar />
+          <Switch>
+            <Route exact path="/" component={AboutUs} />
+            <Route path="/products" component={ProductList} />
+            <Route path="/contacts" component={Contacts} />
+            <Route path="/details" component={Details} />
+            <Route path="/cart" component={Cart} />
+            <Route component={NotFoundPage} />
+          </Switch>
+          
+        </div>
+          <Modal />
         <Footer />
-      </React.Fragment>
+      </div>
     );
   }
 }

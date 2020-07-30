@@ -2,7 +2,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "Rome Planter mini",
-    img: "img/product-1.png",
+    img: "img/product-0.jpg",
     price: 4,
     size: "width: 2 inches; height: 2 inches",
     color: "wood-brown",
@@ -17,7 +17,7 @@ export const storeProducts = [
   {
     id: 2,
     title: "Rome Planter small",
-    img: "img/product-2.png",
+    img: "img/product-02.jpg",
     price: 6,
     size: "width: 3 inches; height: 3 inches",
     color: "wood-brown",
@@ -32,7 +32,7 @@ export const storeProducts = [
   {
     id: 3,
     title: "Rome Planter medium",
-    img: "img/product-3.png",
+    img: "img/product-03.jpg",
     price: 8,
     size: "width: 4 inches; height: 4 inches",
     color: "wood-brown",
@@ -47,7 +47,7 @@ export const storeProducts = [
   {
     id: 4,
     title: "Rome Planter large",
-    img: "img/product-4.png",
+    img: "img/product-04.jpg",
     price: 12,
     size: "width: 7 inches; height: 5 inches",
     color: "wood-brown",

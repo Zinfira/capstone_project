@@ -6,9 +6,9 @@ import PropTypes from "prop-types";
 
 class Product extends Component {
   render() {
-    const { id, title, img, price, shipInfo, inCart } = this.props.product;
+    const { id, title, img, price, inCart } = this.props.product;
     return (
-      <ProductWrapper className="col-9 mx-auto col-md-5 col-lg-4 my-3">
+      <ProductWrapper className="col-9 mx-auto col-md-5 col-lg-3 my-3">
         <div className="card">
           <ProductConsumer>
             {(value) => (
@@ -19,7 +19,6 @@ class Product extends Component {
                 <Link to="/details">
                   <img src={img} alt="product" className="card-img-top" />
                 </Link>
-                  <p className="p-6">Ready to ship in: {shipInfo} </p>
                 <button
                   className="cart-btn"
                   disabled={inCart ? true : false}
@@ -93,9 +92,9 @@ const ProductWrapper = styled.div`
   .card-img-top {
     transition: all 1s linear;
   }
-  .img-container:hover .card-img-top {
-    transform: scale(1.2);
-  }
+  // .img-container:hover .card-img-top {
+  //   transform: scale(1.1);
+  // }
   .cart-btn {
     position: absolute;
     bottom: 0;
