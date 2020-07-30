@@ -8,7 +8,7 @@ class Details extends Component {
     return (
       <ProductConsumer>
         {value => {
-        const { id, title, img, info, price, size, color, material, author, inCart } = value.detailProduct;
+        const { id, title, img, info, price, size, color, material, author, shipInfo, inCart } = value.detailProduct;
         return (
           <div className="container py-5">
             {/* title */}
@@ -34,23 +34,38 @@ class Details extends Component {
                   </strong>
                 </h4>
                 <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                  Dimensions : {size}
+                  Dimensions : 
+                </p>
+                <p id="text-info" className="text-capitalize text-muted lead">
+                  {size}
                 </p>
                 <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                  Material : {material}
+                  Material : 
+                </p>
+                <p id="text-info" className="text-capitalize text-muted lead">
+                  {material}
                 </p>
                 <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                  Color : {color}
+                  Color : 
+                </p>
+                <p id="text-info" className="text-capitalize text-muted lead">
+                  {color}
                 </p>
                 <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                  some info about product
+                  some info about product:
                 </p>
-                <p className="text-muted lead">
+                <p id="text-info" className="text-muted lead">
                   {info}
                 </p>
                 <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
                   made by : <span className="text-uppercase">{author}</span>
                 </h4>
+                <p className="text-capitalize font-weight-bold mt-3 mb-0">
+                  Ready to ship : 
+                </p>
+                <p id="text-info" className="text-capitalize text-muted lead">
+                  {shipInfo}
+                </p>
                 <div>
                   {/* buttons */}
                   <Link to="/products">
