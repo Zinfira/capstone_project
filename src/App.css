@@ -83,6 +83,14 @@ body {
   font-family: PT Sans;
 }
 
-.alice-carousel__play-btn-wrapper{
+.link {
   color: var(--grey1);
+}
+
+.link:hover {
+  color: var(--color3);
+}
+
+.socail-container {
+  margin-top: 20px;
 }

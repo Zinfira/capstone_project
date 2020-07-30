@@ -13,7 +13,7 @@ class AboutUs extends Component {
         <div className="row">
           <div className="about col-5 mx-auto mb-5">
             <h4>
-              During quarantine, my girlfriend and I tried to find cool things
+              During quarantine, my boyfriend and I tried to find cool things
               to do at home. We think that handmade crafts are always valuable
               because you work on each product with all your attention. We are
               here to share the product of our hobbies.{" "}
@@ -24,7 +24,7 @@ class AboutUs extends Component {
               Products! All of our items are crafted with purpose to make life
               more exciting. We believe that it’s the simple small things that
               make a big difference. That’s why we decided to start giving back
-              to the world our passion and love for handmade  gifts.{" "}
+              to the world our passion and love for handmade gifts.{" "}
             </h4>
           </div>
           <div className="about col-5 mx-auto py-5">
