@@ -1,6 +1,6 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css'
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 export default class Gallery extends React.Component {
 
@@ -46,6 +46,7 @@ export default class Gallery extends React.Component {
     <img src="img/carousel-3.jpg" className="carousel" alt="pens holder" />
     <img src="img/carousel-4.jpg" className="carousel" alt="planter" />
     <img src="img/carousel-5.jpg" className="carousel" alt="planters" />
+    <img src="img/carousel-6.jpg" className="carousel" alt="planters" />
   </AliceCarousel>
     );
   }
