@@ -11,6 +11,7 @@ import Cart from './Cart/Cart';
 import NotFoundPage from './NotFoundPage';
 import Footer from './Footer';
 import Modal from './Modal';
+import Thank from './Thank';
 
 class App extends React.Component {
   render() {
@@ -24,6 +25,7 @@ class App extends React.Component {
             <Route path="/contacts" component={Contacts} />
             <Route path="/details" component={Details} />
             <Route path="/cart" component={Cart} />
+            <Route path="/thanks" component={Thank} />
             <Route component={NotFoundPage} />
           </Switch>
           
