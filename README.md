@@ -15,6 +15,8 @@ This is an e-commerce website that allow users to see information about creators
 
 ## Component Tree
 
+![tree](tree.png)
+
 
 ## Behavior Description
 
