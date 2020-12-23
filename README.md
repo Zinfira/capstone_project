@@ -15,7 +15,7 @@ This is an e-commerce website that allow users to see information about creators
 
 ## Component Tree
 
-![tree](tree.png)
+![tree](craftobuy-tree.png)
 
 
 ## Behavior Description
@@ -41,6 +41,8 @@ This is an e-commerce website that allow users to see information about creators
 * A user is able to delete all items from the `My Cart` by clicking `CLEAR CART` button
 
 * A user is able to buy items added to the cart by clicking on `PayPal` button 
+
+* A user is able to send a message (email) to the CraftoBuy team by filling out the form on https://craftobuy.netlify.app/contacts
 
 
 ## Setup/Installation Requirements
@@ -84,7 +86,7 @@ _If you have any issues with the program or you have any suggestions, email me <
 
 ## Technologies Used
 
-_React, HTML, CSS, Bootstrap, JavaScript, JSX, Webpack, npm, Context API, [PayPal Developer API](https://developer.paypal.com/developer/applications/)
+_React, HTML, CSS, Bootstrap, JavaScript, JSX, Webpack, npm, Context API, [PayPal Developer API](https://developer.paypal.com/developer/applications/), [EmailJS](https://www.emailjs.com/)
 
 
 ### License
