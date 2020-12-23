@@ -8,7 +8,7 @@
 
 ![homepage](homepage.png)
 
-This is an e-commerce website that allow users to see information about creators, contacts details, products of CraftoBuy Store, see descriptions about products, price, be able to add desired items to the cart and accept payments using Sandbox PayPal.
+This is an e-commerce website that allow users to see information about creators, contacts details, products of CraftoBuy Store, see descriptions about products, price, be able to add desired items to the cart, accept payments using Sandbox PayPal, and send messages (email) to CraftoBuy Team using EmailJS.
 
 [Click here](https://craftobuy.netlify.app) to see deployed version on Netlify.
 
