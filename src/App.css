@@ -94,3 +94,15 @@ body {
 .socail-container {
   margin-top: 20px;
 }
+
+.contact-form {
+  display: inline-block;
+  color: var(--mainDark);
+}
+
+label {
+  width:180px;
+  clear:left;
+  text-align:left;
+  padding-right:10px;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import SocialFollow from './SocialFollow';
+import SocialFollow from '../SocialFollow';
+import ContactUs from '../Contacts/ContactUs';
 
 class Contacts extends Component {
   render() {
@@ -17,7 +18,7 @@ class Contacts extends Component {
             <SocialFollow />
           </div>
           <div className="about col-5 mx-auto mb-5">
-            <h4>Questions form is coming soon ...</h4>
+            <ContactUs />
 
           </div>
         </div>

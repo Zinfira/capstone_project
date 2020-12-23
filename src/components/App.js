@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Switch, Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import AboutUs from './AboutUs';
-import Contacts from './Contacts';
+import Contacts from './Contacts/Contacts';
 import ProductList from './ProductList';
 import Details from './Details';
 import Cart from './Cart/Cart';
