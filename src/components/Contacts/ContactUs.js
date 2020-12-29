@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import * as emailjs from 'emailjs-com';
 import '../../App.css';
 
